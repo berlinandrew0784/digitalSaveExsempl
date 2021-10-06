@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title></title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+     <style type="text/css" media="all">
+     body {
+      
+      text-align: center;
+      background:rgb(72, 133, 224);
+       
+       
+     }
+       
+     </style>
+    
+  </head>
+  
+  <body>
+    <header>
+      <h1>Цифровой сейф</h1>
+    </header>
+    <section>
+    <h2>Ваша секретная информация:</h2>
+  <p id="pass"></p>
+    
+    </section>
+ 
+    
+    
+    <script>
+      alert("Приветвую вас! вы попали на страницу примера цифрового сейфа.");
+    function safe (a=prompt("Введите ваш код-ключ (например: 12):")){
+     let maccabi = {
+     code:prompt("Введите ваш код-ключ еще раз для контроля (ВАЖНО! Чтобы два кода совпадали, иначе будет отказано в доступе!; например: 12):"),
+     word:"Ваша секретная информация",
+     number:0+"0",
+     
+     }
+     
+     
+  /*  if (leumi.code == 84) {
+     /*alert (leumi.code+leumi.word+leumi.number)*/
+     
+while (maccabi.code != a) 
+{ 
+
+maccabi.code = prompt ("Ой, ОШИБКА! ВВедите повторно ваш код-ключ для доступа");
+
+  
+} 
+  document.getElementById("pass").innerHTML= (a+maccabi.number+"ПРИМЕР:"+maccabi.word+maccabi.code+maccabi.number);
+      
+      
+}
+  safe();
+   
+    </script>
+    
+    
+  </body>
+    
+  
+  
+  
+  
+  
+</html>
